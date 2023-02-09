@@ -1,0 +1,30 @@
+{
+  "name": "bazos-parser-v2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "concurrently \"npm run watch:ts\" \"npm run watch:node\" \"npm run watch:lint\"",
+    "watch:ts": "tsc --watch",
+    "watch:node": "nodemon ./dist/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.51.0",
+    "@typescript-eslint/parser": "^5.51.0",
+    "concurrently": "^7.6.0",
+    "eslint": "^8.33.0",
+    "nodemon": "^2.0.20",
+    "tsc": "^2.0.4"
+  },
+  "dependencies": {
+    "@grammyjs/conversations": "^1.1.1",
+    "@grammyjs/menu": "^1.1.2",
+    "@grammyjs/router": "^2.0.0",
+    "cheerio": "^1.0.0-rc.12",
+    "grammy": "^1.14.0",
+    "mongoose": "^6.9.0",
+    "puppeteer": "^19.6.3"
+  }
+}
