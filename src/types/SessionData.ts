@@ -1,5 +1,7 @@
+import { AdsType } from './AdsType'
+
 export interface SessionData {
-    ads: Array<{ url: string, name: string, price: string, user: string, img: string, user_url: string }>;
+    ads: Array<AdsType>;
     route: string;
     stopParse: boolean;
 }

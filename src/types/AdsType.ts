@@ -1,0 +1,1 @@
+export interface AdsType { url: string, name: string, price: string, user: string, img: string, user_url: string, adsCount: number, phone_number: string }
