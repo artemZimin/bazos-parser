@@ -11,7 +11,7 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 Object.defineProperty(exports, "__esModule", { value: true });
 const grammy_1 = require("grammy");
 const callbackQueries_1 = require("./callbackQueries");
-const access_1 = require("./moddlewares/access");
+const access_1 = require("./middlewares/access");
 const home_keyboard_1 = require("./routes/home/home.keyboard");
 const routes_1 = require("./routes/routes");
 const conversations_1 = require("@grammyjs/conversations");

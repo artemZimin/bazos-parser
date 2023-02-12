@@ -1,6 +1,6 @@
 import { Bot, session } from 'grammy'
 import { callbackQueries } from './callbackQueries'
-import { access } from './moddlewares/access'
+import { access } from './middlewares/access'
 import { homeKeyboard } from './routes/home/home.keyboard'
 import { router } from './routes/routes'
 import { CustomContext } from './types/CustomContext'
